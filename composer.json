@@ -1,0 +1,19 @@
+{
+    "name": "chandra/user-dependency",
+    "description": "Dependency for connecting with laravel-microservice user microservice",
+    "require": {
+        "laravel/framework": ">=8.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Chandra\\UserDependency\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "frchandra",
+            "email": "nismara.chandra@gmail.com"
+        }
+    ]
+}
